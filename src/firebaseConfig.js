@@ -1,3 +1,3 @@
 export const firebaseConfig = {
-    Add your firebase config here
+    // Add your firebase config here
   };
