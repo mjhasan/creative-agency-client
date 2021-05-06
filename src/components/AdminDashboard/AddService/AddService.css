@@ -1,0 +1,22 @@
+.MuiSnackbar-root.MuiSnackbar-anchorOriginBottomCenter {
+    bottom: 100px;
+}
+
+.form-main button {
+    background-color: #111430;
+    color: #fff;
+    border: none;
+    width: 150px;
+    margin: 7px!important;
+    padding: 12px;
+    border-radius: 5px!important;
+}
+
+.form-main span {
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+.loading-btn {
+    cursor: context-menu!important;
+}

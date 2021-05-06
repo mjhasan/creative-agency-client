@@ -1,0 +1,14 @@
+.user-name {
+    padding: 8px;
+}
+
+.user {
+    padding: 18px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify
+}

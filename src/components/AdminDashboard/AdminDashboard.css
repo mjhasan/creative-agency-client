@@ -1,0 +1,10 @@
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #000
+}
+
+img.logo {
+    margin: 10px 0px -53px 45px;
+}

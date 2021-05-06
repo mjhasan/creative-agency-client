@@ -1,0 +1,23 @@
+.navbar-style {
+    background-color: #FBD062;
+    color: #111430
+}
+a.nav-link {
+    color: #111430!important;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+a.login.nav-link {
+    background-color: #111430;
+    color: #fff!important;
+    width: 73px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+a.home.nav-link {
+    font-weight: 500;
+    border-bottom: 4px solid #7AB259;
+}

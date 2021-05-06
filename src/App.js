@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { createContext, useState } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
+import HomePage from './components/HomePage/HomePage';
+import AdminDashboard from './components/AdminDashboard/AdminDashboard';
+import CustomerDashboard from './components/CustomerDashboard/CustomerDashboard';
+import Login from './components/Login/Login';
+import PrivateRoute from './components/Login/PrivateRoute';
+export const UserContext = createContext()
 
 function App() {
+  const [user, updateUser] = useState([]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserContext.Provider value={[user, updateUser]}>
+      <Router>
+        <Switch>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <PrivateRoute path="/admin-dashboard">
+            <AdminDashboard />
+          </PrivateRoute>
+          <PrivateRoute path="/customer-dashboard">
+            <CustomerDashboard />
+          </PrivateRoute>
+          <Route path="/">
+            <HomePage />
+          </Route>
+        </Switch>
+      </Router>
+    </UserContext.Provider>
   );
 }
 

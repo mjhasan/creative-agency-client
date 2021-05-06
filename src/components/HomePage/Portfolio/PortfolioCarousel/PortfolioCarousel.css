@@ -1,0 +1,11 @@
+.thumbs-wrapper.axis-vertical {
+    display: none;
+}
+
+.carousel-content {
+    padding: 50px 15px;
+}
+
+p.carousel-status {
+    display: none;
+}

@@ -1,0 +1,17 @@
+.hero-area-main {
+    background-color: #FBD062;
+    padding-top: 50px;
+}
+
+h1 {
+    font-weight: 700!important;
+}
+
+.black-btn {
+    background-color: #111430;
+    color: #fff;
+    border: none;
+    width: 121px;
+    padding: 8px;
+    border-radius: 5px;
+}

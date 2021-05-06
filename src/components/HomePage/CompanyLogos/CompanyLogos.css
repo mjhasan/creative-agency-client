@@ -1,0 +1,6 @@
+@media (min-width:961px)  {
+
+    .company-logo.d-flex.justify-content-around {
+        margin-top: -200px;
+    }
+}

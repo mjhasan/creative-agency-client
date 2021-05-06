@@ -1,0 +1,15 @@
+
+.MuiPaper-root.MuiTableContainer-root.MuiPaper-elevation1.MuiPaper-rounded {
+    padding: 30px;
+}
+
+tr.MuiTableRow-root.table-header.MuiTableRow-head {
+    background-color: #eee;
+}
+
+select {
+    border: none;
+}
+select:focus-visible {
+    border: none;
+}
